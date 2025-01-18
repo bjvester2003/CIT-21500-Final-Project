@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project CIT-21500</title>
+    <link rel="stylesheet" href="./final_main.css">
+    <script src="./lib/jquery-3.7.1.js"></script>
+    <script src="./final_script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Country Veiwer</h1>
+    </header>
+    <nav>
+        <input class="CRUD_option" id="name_field" type="text" placeholder="Enter Country Name" size="50" maxlength="50">
+        
+        <button class="CRUD_option" onclick="createCountry()">Create</button> 
+        <button class="CRUD_option" onclick="readCountry()">Read</button>
+        <button class="CRUD_option" onclick="updateCountry()">Update</button>
+        <button class="CRUD_option" onclick="deleteCountry()">Delete</button>
+
+    </nav>
+    <div class="content_area_wrap">
+        <div class="content_area"></div>
+    </div>
+</body>
+</html>

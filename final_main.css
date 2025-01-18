@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: rgb(253, 234, 211);
+}
+
+header {
+    background-color: rgb(230, 205, 175);
+
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: bisque;
+
+    height: 2.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.CRUD_option, .edit_option {
+    background-color: rgb(253, 234, 211);;
+
+    margin: .5em;
+
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.edit_option {
+    padding: .25em;
+}
+
+/* Content Area Wrap*/
+
+
+.content_area_wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.modification_area {
+    background-color: bisque;
+
+    width: 25%;
+    height: 74vh;
+    
+    margin: 1em auto 1em auto;
+    padding: .5em
+}
+
+.content_area {
+    background-color: bisque;
+
+    min-width: 50%;
+    width: fit-content;
+    height: 74vh;
+
+    padding: 0;
+    margin: 1em auto 1em auto;
+
+    overflow-y: scroll;
+}
+
+/* Content Area */
+
+.country_element {
+    background-color: rgb(230, 205, 175);
+
+    height: fit-content;
+
+    padding: .5em;
+    margin: 0 0 .5em 0;
+}
+.header_image {
+    height: 1em;
+    margin-right: .5em;
+}
+
+.country_info {
+    padding: .5em;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.flag {
+    padding-right: .5em;
+    max-width: 25%;
+    max-height: 15vh;
+}
+
+.info_box {
+
+    margin: 0 .5em 0 0;
+    width: fit-content;
+}
+
+.info_line {
+    margin: 0 0 .25em 0;
+}
+
+/* --- Scrollbar --- */
+
+::-webkit-scrollbar {
+  display: none;
+}
+/* Number Input Arrows */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
